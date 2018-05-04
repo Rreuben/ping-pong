@@ -1,6 +1,17 @@
 .container-fluid {
-padding: 0;
+  padding-left: 50px;
+  padding-right: 50px;
 }
-jumbotron.head {
+.jumbotron {
+  background-color: #eaa47e;
+}
+.banner {
+  padding: 2.5%;
   text-align: center;
+}
+
+.content {
+  background-color: #808080;
+  padding-bottom: 2.5%;
+  padding-top: 2.5%;
 }
