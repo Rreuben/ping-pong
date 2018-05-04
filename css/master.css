@@ -1,17 +1,70 @@
 .container-fluid {
+  background-image: url(../images/background2.jpg);
+  background-size: contain;
   padding-left: 50px;
   padding-right: 50px;
 }
 .jumbotron {
-  background-color: #eaa47e;
+  background: rgb(145, 133, 126);
+  background: rgba(145, 133, 126, 0.959);
 }
-.banner {
+.banner h1 {
   padding: 2.5%;
   text-align: center;
 }
+.banner p {
+  text-align: right;
+}
 
-.content {
-  background-color: #808080;
-  padding-bottom: 2.5%;
-  padding-top: 2.5%;
+
+
+
+
+.row {
+  margin: 0;
+}
+.row .content {
+  max-height: 50px;
+}
+.about {
+  background: rgb(183, 149, 124);
+  background: rgba(183, 149, 124,0.975);
+  border-radius: 5px;
+}
+.about h1{
+  text-align: center;
+}
+.play {
+  background: rgb(196, 178, 164);
+  background: rgba(196, 178, 164, 0.975);
+  border-radius: 5px;
+}
+.play h1 {
+  text-align: center;
+}
+#flip {
+  text-align: center;
+  transition: all .2s ease-in-out;
+}
+#flip:hover {
+  color: #ffe1cc;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+#panel {
+  background: rgb(145, 133, 126);
+  background: rgba(145, 133, 126, 0.90);
+  border-radius: 5px;
+  display: none;
+  padding: 2.5%;
+}
+#panel p {
+  font-size: 18px;
+}
+
+.form {
+  background-color: black;
+  padding: 10%;
+  margin-top: 25px;
+  text-align: center;
 }
