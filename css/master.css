@@ -58,7 +58,7 @@
   padding: 2.5%;
 }
 #panel p {
-  font-size: 5px;
+  font-size: 18px;
 }
 
 #flip1 {
@@ -82,11 +82,26 @@
   font-size: 20px;
 }
 
-.form {
+#frm {
   background: rgb(145, 133, 126);
   background: rgba(145, 133, 126, 0.959);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   font-size: 25px;
   padding: 5%;
   margin-top: 25px;
+  text-align: center;
+}
+
+.resultOutput {
+  background: rgb(145, 133, 126);
+  background: rgba(145, 133, 126, 0.959);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.numbers {
+  font-size: 30px;
+  padding-bottom:
+  5%;
   text-align: center;
 }
