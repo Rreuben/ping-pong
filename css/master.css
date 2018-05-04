@@ -16,20 +16,15 @@
   text-align: right;
 }
 
-
-
-
-
 .row {
   margin: 0;
-}
-.row .content {
-  max-height: 50px;
 }
 .about {
   background: rgb(183, 149, 124);
   background: rgba(183, 149, 124,0.975);
   border-radius: 5px;
+  /* padding-bottom: 80px; */
+  height: 350px;
 }
 .about h1{
   text-align: center;
@@ -38,18 +33,22 @@
   background: rgb(196, 178, 164);
   background: rgba(196, 178, 164, 0.975);
   border-radius: 5px;
+  /* padding-bottom: 50px; */
+  height: 350px;
 }
 .play h1 {
   text-align: center;
 }
+
 #flip {
+  padding-bottom: 5px;
   text-align: center;
   transition: all .2s ease-in-out;
 }
 #flip:hover {
   color: #ffe1cc;
   cursor: pointer;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 #panel {
   background: rgb(145, 133, 126);
@@ -59,12 +58,35 @@
   padding: 2.5%;
 }
 #panel p {
-  font-size: 18px;
+  font-size: 5px;
+}
+
+#flip1 {
+  padding-bottom: 5px;
+  text-align: center;
+  transition: all .2s ease-in-out;
+}
+#flip1:hover {
+  color: #ffe1cc;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+#panel1 {
+  background: rgb(145, 133, 126);
+  background: rgba(145, 133, 126, 0.90);
+  border-radius: 5px;
+  display: none;
+  padding: 2.5%;
+}
+#panel1 p {
+  font-size: 20px;
 }
 
 .form {
-  background-color: black;
-  padding: 10%;
+  background: rgb(145, 133, 126);
+  background: rgba(145, 133, 126, 0.959);
+  font-size: 25px;
+  padding: 5%;
   margin-top: 25px;
   text-align: center;
 }

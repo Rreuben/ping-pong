@@ -13,42 +13,48 @@
   </head>
   <body>
     <div class="container-fluid">
+
       <div class="jumbotron">
         <div class="banner">
           <h1>Ping-Pong</h1>
-          <p>By <em>Rreuben</em></p>
         </div>
       </div>
 
-
-
-
-      <div class="row content">
+      <div class="row bdy-content">
         <div class="col-md-4 about">
-            <h1>About Ping Pong</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h1 id="flip">About Ping Pong</h1>
+          <div id="panel">
+            <h3>Created by:</h3>
+            <p>Reuben</p>
+            <h3>My GitHub</h3>
+            <p>Rreuben</p>
+            <h3>Level 2 Test for:</h3>
+            <p>Java</p>
           </div>
-        <div class="col-md-8 play">
-            <h1>Let's Play!</h1>
-            <h2 id="flip">Rules</h2>
-            <div id="panel">
-              <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
-              <ol>
-                <li>Numbers divisible by 3 become "ping"</li>
-                <li>Numbers divisible by 5 become "pong"</li>
-                <li>Numbers divisible by 3 and 5 become "pingpong"</li>
-              </ol>
-            </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-7 play">
+          <h1>Let's Play!</h1>
+          <h2 id="flip1">Rules</h2>
+          <div id="panel1">
+            <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+            <ol>
+              <li>Numbers divisible by 3 become "ping"</li>
+              <li>Numbers divisible by 5 become "pong"</li>
+              <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+            </ol>
           </div>
+        </div>
       </div>
-      <div class="row form">
-        <form>
-          <input type="number" placeholder="Your Number">
-          <button type="button" name="button">Ping Pong!</button>
+
+      <div class="row frm-content">
+        <form id="frm">
+          <div class="frm-group">
+            <input type="number" id="number" placeholder="Your Number">
+            <button type="submit" class="btn">Ping Pong!</button>
+          </div>
         </form>
       </div>
-
-
 
     </div>
   </body>
