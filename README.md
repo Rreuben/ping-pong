@@ -1,5 +1,5 @@
 # Ping-Pong Game
-#### A game that takes your number and returns a list of numbers, Friday, 4th May 2018.
+#### A game that takes your number and returns a list of numbers.
 #### By **Rreuben**
 
 
@@ -7,7 +7,7 @@
 This is a web application that takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions: Numbers divisible by 3 are replaced with "ping"; Numbers divisible by 5 are replaced with "pong"; Numbers divisible by 15 are replaced with "ping-pong".
 
 
-##BDD
+## BDD
 - Can count from 1 to a given number.
 - Can replace multiples of 3 with "ping".
 - Can replace multiples of 5 with "pong".
@@ -22,7 +22,7 @@ This is a web application that takes a number from a user and returns a range of
 
 # Or
 * Open browser *(Google Chrome Recommended)*
-* Visit
+* Visit https://rreuben.github.io/ping-pong/
 
 
 *{To Edit The Code You May Need To Use A Text Editor Like Atom}*
