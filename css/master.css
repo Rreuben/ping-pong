@@ -57,8 +57,8 @@
   display: none;
   padding: 2.5%;
 }
-#panel p {
-  font-size: 18px;
+#panel h3 p {
+  font-size: 15px;
 }
 
 #flip1 {
